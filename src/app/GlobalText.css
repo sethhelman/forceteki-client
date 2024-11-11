@@ -8,10 +8,10 @@ button {
 /* Fonts */
 
   html, body, h1, h2, h3, h4, h5, h6, p, a, .button {
-    font-family: barlow !important;
-    color: white !important;
+    font-family: barlow;
+    color: white;
     margin: 0;
-    -webkit-font-smoothing: auto !important;
+    -webkit-font-smoothing: auto;
   }
   
   h1 {
@@ -57,7 +57,7 @@ button {
   }
   
   p a, .label a {
-    color: lightblue !important;
+    color: lightblue;
   }
   
   p:last-child { 
@@ -65,7 +65,7 @@ button {
   }
   
   b {
-    font-weight: 600 !important;
+    font-weight: 600;
   }
 
   hr {
@@ -96,7 +96,7 @@ button {
   }
 
   .container {
-    border-radius: 0.7rem !important;
+    border-radius: 0.7rem;
     padding: 2rem;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -105,27 +105,27 @@ button {
   }
   
   .blue-bg { 
-    background: rgba(24, 50, 81, 0.60) !important;
+    background: rgba(24, 50, 81, 0.60);
   }
   
   .black-bg {
-    background-color: rgb(0, 0, 0, 0.60) !important;
+    background-color: rgb(0, 0, 0, 0.60);
   }
 
   /* Buttons */
 
   .button {
-    padding: 0.4rem 0.8rem !important;
-    border-radius: 0.4rem !important;
-    font-size: 1rem !important;
-    font-weight: 600 !important;
-    text-transform: none !important;
-    background: #292929 !important;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: none;
+    background: #292929;
     width: fit-content;
   }
   
   .button:hover {
-    background: #3a3a3a !important;
+    background: #3a3a3a;
   }
 
   .button-centered {
