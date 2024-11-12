@@ -7,8 +7,8 @@ button {
 
 /* Fonts */
 
-  html, body, h1, h2, h3, h4, h5, h6, p, a, .button {
-    font-family: barlow;
+  html, body, h1, h2, h3, h4, h5, h6, p, a, label, .button {
+    font-family: barlow !important;
     color: white;
     margin: 0;
     -webkit-font-smoothing: auto;
